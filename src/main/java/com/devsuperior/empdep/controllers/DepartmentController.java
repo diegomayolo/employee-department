@@ -1,7 +1,7 @@
-package com.devsuperior.bds01.controllers;
+package com.devsuperior.empdep.controllers;
 
-import com.devsuperior.bds01.dto.DepartmentDTO;
-import com.devsuperior.bds01.services.DepartmentService;
+import com.devsuperior.empdep.dto.DepartmentDTO;
+import com.devsuperior.empdep.services.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

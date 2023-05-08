@@ -1,4 +1,4 @@
-package com.devsuperior.bds01.entities;
+package com.devsuperior.empdep.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

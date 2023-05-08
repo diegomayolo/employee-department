@@ -1,9 +1,9 @@
-package com.devsuperior.bds01.services;
+package com.devsuperior.empdep.services;
 
-import com.devsuperior.bds01.dto.EmployeeDTO;
-import com.devsuperior.bds01.entities.Department;
-import com.devsuperior.bds01.entities.Employee;
-import com.devsuperior.bds01.repositories.EmployeeRepository;
+import com.devsuperior.empdep.dto.EmployeeDTO;
+import com.devsuperior.empdep.entities.Department;
+import com.devsuperior.empdep.entities.Employee;
+import com.devsuperior.empdep.repositories.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

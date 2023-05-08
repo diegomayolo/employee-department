@@ -1,12 +1,12 @@
-package com.devsuperior.bds01;
+package com.devsuperior.empdep;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Bds01Application {
-
+public class EmpDepApplication
+{
 	public static void main(String[] args) {
-		SpringApplication.run(Bds01Application.class, args);
+		SpringApplication.run( EmpDepApplication.class, args);
 	}
 }

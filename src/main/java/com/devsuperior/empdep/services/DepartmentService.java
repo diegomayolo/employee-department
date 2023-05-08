@@ -1,8 +1,8 @@
-package com.devsuperior.bds01.services;
+package com.devsuperior.empdep.services;
 
-import com.devsuperior.bds01.dto.DepartmentDTO;
-import com.devsuperior.bds01.entities.Department;
-import com.devsuperior.bds01.repositories.DepartmentRepository;
+import com.devsuperior.empdep.dto.DepartmentDTO;
+import com.devsuperior.empdep.entities.Department;
+import com.devsuperior.empdep.repositories.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;

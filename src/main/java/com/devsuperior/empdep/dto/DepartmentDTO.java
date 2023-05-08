@@ -1,6 +1,6 @@
-package com.devsuperior.bds01.dto;
+package com.devsuperior.empdep.dto;
 
-import com.devsuperior.bds01.entities.Department;
+import com.devsuperior.empdep.entities.Department;
 
 import java.io.Serializable;
 

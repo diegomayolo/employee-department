@@ -1,8 +1,12 @@
-package com.devsuperior.bds01.repositories;
+package com.devsuperior.empdep.repositories;
 
-import com.devsuperior.bds01.entities.Department;
+import com.devsuperior.empdep.entities.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+/**
+ *
+ * @author dm
+ */
 public interface DepartmentRepository extends JpaRepository<Department, Long>
 {
 }

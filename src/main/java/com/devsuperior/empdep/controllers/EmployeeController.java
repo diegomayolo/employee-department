@@ -1,7 +1,7 @@
-package com.devsuperior.bds01.controllers;
+package com.devsuperior.empdep.controllers;
 
-import com.devsuperior.bds01.dto.EmployeeDTO;
-import com.devsuperior.bds01.services.EmployeeService;
+import com.devsuperior.empdep.dto.EmployeeDTO;
+import com.devsuperior.empdep.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -11,6 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import javax.validation.Valid;
 import java.net.URI;
 
 /**
@@ -46,7 +47,7 @@ public class EmployeeController
      * @return ResponseEntity<CategoryDTO>
      */
     @PostMapping
-    public ResponseEntity<EmployeeDTO> insert( @RequestBody EmployeeDTO dto )
+    public ResponseEntity<EmployeeDTO> insert( @Valid @RequestBody EmployeeDTO dto )
     {
         dto = service.insert( dto );
 
